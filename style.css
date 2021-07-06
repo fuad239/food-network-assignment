@@ -1,0 +1,61 @@
+.flex{
+    display: flex;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-weight:50px;
+    color: rgb(59, 58, 58);
+}
+.orange{
+    color: orange;
+}
+.first2-sec{
+    max-width: 50%;
+    margin-left:10%;
+    margin-top:5%;
+    margin-right:5%;
+}
+.div-img{
+    max-width:80%;
+}
+.opacity{
+    opacity: 0.7;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,orange);
+    padding:10px;
+    color: white;
+    border-radius:20px;
+
+}
+.section2{
+    background-image: url(images/shapes/7.png);
+}
+.middle{
+    text-align: center justify;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.recipie{
+    box-shadow: 5px 5px 30px 5px gray;
+    margin-left:40px ;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 400px;
+    width: 700px;
+    padding: 10px;
+    border-radius:20px;
+}
+.image{
+    padding: 10px;
+    width:95%;
+    height:50%;
+   
+   
+}
