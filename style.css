@@ -1,3 +1,30 @@
+
+
+.header{
+    background-color: rgb(8, 8, 8);
+    height:150px;
+    width: 100%;
+    
+}
+.menu{
+    width: 40%;
+}
+.titlebar{
+    width: 60%;
+}
+.headline{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: white;
+font-size: 50px;
+padding:10px;
+}
+.pos{
+   padding:30px;
+   color: white;
+   text-align: left;
+  
+}
+
 .flex{
     display: flex;
 }
@@ -28,7 +55,7 @@ h1{
 .button{
     text-decoration: none;
     background-image: linear-gradient(tomato,orange);
-    padding:10px;
+    padding: 15px;
     color: white;
     border-radius:20px;
 
@@ -58,4 +85,43 @@ h1{
     height:50%;
    
    
+}
+.optional{
+    margin:40px ;
+    text-align: center;
+    box-shadow:5px 5px 30px 5px gray;
+    border-radius: 20px;
+}
+#left{
+    align-content: left;
+    padding-left: 250px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#right{
+    align-content: right;
+    padding-left: 110px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#center{
+    align-content: center;
+    padding-left: 130px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer{
+    background-color: rgb(31, 30, 30);
+    height:120px;
+    width: 100%;
+    text-align: center;
+}
+#net-color{
+    color: rgb(163, 159, 159);
+}
+.foodpad{
+    padding-top:10px ;
 }
